@@ -417,7 +417,10 @@ $(function() {
       });
 
     });
-
+    new PNotify({
+            title: 'Regular Notice',
+            text: 'Check me out! I\'m a notice.'
+        });
   }
 
   function updateData(row_index) {
@@ -569,10 +572,6 @@ $(function() {
   $("#select_area").change(function(data) {
     var row_index = $(data.target).val();
     onChangeSelect(row_index);
-    new PNotify({
-            title: 'Regular Notice',
-            text: 'Check me out! I\'m a notice.'
-        });
   
   });
 
