@@ -72,6 +72,7 @@ CfKは市民のための組織です。行政や民間企業の影響を受け�
   <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) 
   <script src="js/respond.js"></script>
   -->  
+  <script src="js/pnotify.custom.min.js"></script>
   <!-- ブックマークお勧めポップアップ追加-->
   <script src="js/bookmark-bubble/bookmark_bubble.min.js"></script>
   <script src="js/bookmark-bubble/example/example.min.js"></script>
@@ -84,6 +85,10 @@ CfKは市民のための組織です。行政や民間企業の影響を受け�
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-43926409-1', '5374.jp');
   ga('send', 'pageview');
+  new PNotify({
+            title: 'Regular Notice',
+            text: 'Check me out! I\'m a notice.'
+        });
   </script>
   </body>
 </html>
