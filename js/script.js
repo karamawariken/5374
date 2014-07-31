@@ -482,8 +482,8 @@ $(function() {
 
           var leftDayText = "";
           if (leftDay == 0) {
-            <h1>
-            leftDayText = "今日";</h1>
+           
+            leftDayText ='<h1>'+"今日"+'</h1>';
           } else if (leftDay == 1) {
             <h2>leftDayText = "明日";</h2>
           } else if (leftDay == 2) {
