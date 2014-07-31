@@ -482,7 +482,7 @@ $(function() {
 
           var leftDayText = "";
           if (leftDay == 0) {
-            leftDayText ='<h4>'+"今日"+'</h4>';
+            leftDayText ='<h1>'+"今日"+'</h1>';
           } else if (leftDay == 1) {
             leftDayText = "明日";
           } else if (leftDay == 2) {
