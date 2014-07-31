@@ -483,6 +483,7 @@ $(function() {
           var leftDayText = "";
           if (leftDay == 0) {
             leftDayText = "今日";
+            leftDayText.size="20px";
           } else if (leftDay == 1) {
             leftDayText = "明日";
           } else if (leftDay == 2) {
